@@ -1,0 +1,175 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background-image: url("https://www.k-state.edu/seek/fall-2019/robots-drones-becoming-tools-in-agriculture/images/ag_robot_enters_field.jpg");
+            color: black;
+        }
+
+
+        /* Increase the font size of the h1 element */
+        .header h1 {
+            font-size: 40px;
+        }
+
+        /* Style the top navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Column container */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Create two unequal columns that sits next to each other */
+        /* Sidebar/left column */
+        .side {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* Main column */
+        .main {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Fake image, just for this example */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Chetan Badgujar</h1>
+        <p>Research website</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Research Projects</a>
+        <a href="#">Publications</a>
+        <a href="#">CV</a>
+        <a href="#">Photos</a>
+        <a href="#" class="right">Link</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h3>Chetan Badgujar:</h5>
+                <p>USDA-ARS SCINet Postdoctoral Fellow</p>
+                 <p>Center or Grain & Animal Health Research, Manhattan, KS</p>
+                <img src="Chetan.jpg" style="width:200px;height:200Chetanpx">
+                  <p>Links:</p>
+                <a href="https://scholar.google.com/citations?user=OaemW64AAAAJ&hl=en"><img src="https://libapps-au.s3-ap-southeast-2.amazonaws.com/customers/6037/images/gsicon.png" alt="Googlescholar" style="width:50px;height:60px;"></a>
+             
+         <a href="https://www.researchgate.net/profile/Chetan-Badgujar-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ResearchGate_icon_SVG.svg/1200px-ResearchGate_icon_SVG.svg.png" alt="ResearchGate" style="width:50px;height:60px;"></a>
+                      
+           <a href="https://www.linkedin.com/in/chetan-badgujar-264b1690/"><img src="https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png" alt="Linkdin" style="width:50px;height:60px;"></a>
+             
+                
+                <h2>Education</h3>
+                <h4>Ph.D.- 2022, Kansas State University, Manhattan, KS</h4>
+                <p>Biological & Agricultural Engineering</p>
+             
+             <h4>M.Tech.- 2017, Punjab Agricultural University, Ludhiana, India</h4>
+                <p>Farm Machinery & Power Engineering</p>
+             
+              <h4>B.Tech.- 2015, Dr. PDKV Agricultural University, Akola, India</h4>
+                <p>Agricultural Engineering</p>
+             
+       
+        </div>
+        <div class="main">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <br>
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <img src="AGV.png" alt="Flowers in Chania">
+            /*<div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+</body>
+
+</html>
